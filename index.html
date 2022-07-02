@@ -1,0 +1,641 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Photography HTML-5 Template </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="//cdn.perfmatters.io/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="SlickNav/slicknav.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/niceselect@1.0.0/jquery.niceselect.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+
+    <div class="header-area header-transparent">
+      <div class="main-header  header-sticky">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+
+            <div class="col-xl-2 col-lg-2 col-md-1">
+              <div class="logo">
+                <a href="index.html"><img
+                    src="data:image/webp;base64,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"
+                    alt="" data-pagespeed-url-hash="2420154187"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-10">
+              <div class="menu-main d-flex align-items-center justify-content-end">
+
+                <div class="main-menu f-right d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="blog.html">Blog</a>
+                        <ul class="submenu">
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blog_details.html">Blog Details</a></li>
+                          <li><a href="elements.html">Element</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="header-right-btn f-right d-none d-lg-block ml-20">
+                  <a href="contact.html" class="btn header-btn">Contact now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main>
+
+    <div class="slider-area ">
+      <div class="slider-active">
+
+        <div class="single-slider slider-height d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-7 col-lg-7 col-md-8">
+                <div class="man_caption">
+                  <span data-animation="fadeInUp" data-delay=".4s">Creative Photographey</span>
+                  <h1 data-animation="fadeInUp" data-delay=".6s" style="margin-right: 1000px;">Photography Make us happy Take a shot.</h1>
+
+                  <div class="hero__btn">
+                    <a href="industries.html" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Watch
+                      Portfolio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="manimg">
+            <img src="img/gallery/xhero_man1.png.pagespeed.ic.8kozYaBH8q.webp" alt=""
+              data-pagespeed-url-hash="1460427953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          </div>
+        </div>
+
+
+    <section class="about-area about1 section-padding30">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-5 col-lg-6">
+            <div class="about-caption2 mb-50">
+              <h3>HOW WE MAKE USER EXPERIENCES</h3>
+              <div class="send-cv">
+                <a href="#"><span class="__cf_email__"
+                    data-cfemail="c0a8a9b2a580a3afacafb2aca9a2eea3afad">[email&#160;protected]</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+            <div class="about-caption mb-50">
+              <h3>You can’t use up creativity. The more you use, the
+                more you have in your signifant mind.</h3>
+              <p class="pera1"><span>SALVADOR DALI</span> Digital Artisit</p>
+              <div class="experience">
+                <div class="year">
+                  <span>05</span>
+                </div>
+                <div class="year-details">
+                  <p>YEARS OF<br> DIGITAL EXPERIENCE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-shape d-none d-xl-block">
+        <img src="img/gallery/xabout_shape.png.pagespeed.ic.U9ibUJRfzK.webp" alt="" data-pagespeed-url-hash="4084799194"
+          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </div>
+    </section>
+
+
+    <section class="home-blog-area section-padding30">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="img/gallery/xblog01.png.pagespeed.ic.ldb1VpVFfe.webp" alt=""
+                  data-pagespeed-url-hash="3579068482"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="team-caption">
+                <h3><a href="services.html">Creative Photography</a></h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="img/gallery/xblog02.png.pagespeed.ic.-zMq6gJ99a.webp" alt=""
+                  data-pagespeed-url-hash="3873568403"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="team-caption">
+                <h3><a href="services.html">Wedding Photography</a></h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="img/gallery/xblog03.png.pagespeed.ic.sX3YrO6SJL.webp" alt=""
+                  data-pagespeed-url-hash="4168068324"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="team-caption">
+                <h3><a href="services.html">Nature Photography</a></h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery-area">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery1.png.pagespeed.ic.jqd12IGaTp.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery1.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery2.png.pagespeed.ic.Cd-OerHR4Y.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery2.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery3.png.pagespeed.ic.cshjdtl2mC.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery3.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery4.png.pagespeed.ic.ZIca9GakZW.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery4.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery5.png.pagespeed.ic.NnZGAbq2sC.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery5.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery-box">
+              <div class="single-gallery">
+                <div class="gallery-img"
+                  style="background-image:url(img/gallery/xgallery6.png.pagespeed.ic.YxMdrf-BIG.webp)"></div>
+                <div class="cap-icon">
+                  <a href="img/gallery/gallery6.png.webp" class="ti-fullscreen img-pop-up"></a>
+                </div>
+                <div class="g-caption">
+                  <h4>The Last man</h4>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="brand-area pb-bottom section-padding30">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="section-tittle mb-30">
+              <h2>Take a look <br>at our achivment</h2>
+              <p>Excepteur sint occaecat cupidatat. irure dolor in.</p>
+              <a href="#" class="btn">Get Start</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand1.png.pagespeed.ic.s78bPksMoW.webp" alt=""
+                data-pagespeed-url-hash="3958175673" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand02.png.pagespeed.ic.2Nke0TVfU-.webp" alt=""
+                data-pagespeed-url-hash="4229814676" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand2.png.pagespeed.ic.XTBODehoNE.webp" alt=""
+                data-pagespeed-url-hash="4252675594" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand3.png.pagespeed.ic.LO8tYXD9xj.webp" alt="" data-pagespeed-url-hash="252208219"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand4.png.pagespeed.ic.XTBODehoNE.webp" alt="" data-pagespeed-url-hash="546708140"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-brand text-center mb-30">
+              <img src="img/gallery/xbrand1.png.pagespeed.ic.s78bPksMoW.webp" alt=""
+                data-pagespeed-url-hash="3958175673" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <p>Behance award</p>
+              <p>Prize 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-shape d-none d-lg-block">
+        <img src="img/gallery/xbrand_shape.png.pagespeed.ic.NToSHkrXqJ.webp" alt="" data-pagespeed-url-hash="993683560"
+          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </div>
+    </section>
+
+
+    <div class="testimonial-area testimonial-padding">
+      <div class="container ">
+        <div class="row d-flex justify-content-center">
+          <div class="col-xl-11 col-lg-11 col-md-9">
+            <div class="h1-testimonial-active">
+
+              <div class="single-testimonial text-center">
+
+                <div class="testimonial-caption ">
+                  <div class="testimonial-top-cap">
+                    <img
+                      src="data:image/webp;base64,UklGRvYAAABXRUJQVlA4TOoAAAAvQgAMEI+hkG0EqITnz/NADPzwqGkjyU3epu4+ds/l1aZtwJCt5w5UJggccCBcCAMGIDQIgjC4M8vhYeGDIAj0x/EIAmDBtSTZTkLOmOVizoBZ///7OOfs8b5aFdF/B27bRlKCAefc1TsKaFOnvzlUl32h3RHzger2f4gzoHf0ZqIMMSVdN3wxdRuH3jnTdA0c4Y6ZumdMN3kXJmopPdwDU7fF9KUzwWz0VHveaRlBLsQeIauf+MCslVxjetKZYrbW2Sp5DyGN2BOksc9KyRUTVSs54wwYO+tslLwx+lqeIZOCWbERV+f3exw="
+                      alt="" data-pagespeed-url-hash="2924975934"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                      facilisis por incididunt ut labore et dolore mas. </p>
+                  </div>
+
+                  <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                    <div class="founder-img">
+                      <img src="img/gallery/xHomepage_testi.png.pagespeed.ic.IdmhPM2NkE.webp" alt=""
+                        data-pagespeed-url-hash="4282642113"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="founder-text">
+                      <span>Jessya Inn</span>
+                      <p>Chif Photographer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-testimonial text-center">
+
+                <div class="testimonial-caption ">
+                  <div class="testimonial-top-cap">
+                    <img
+                      src="data:image/webp;base64,UklGRvYAAABXRUJQVlA4TOoAAAAvQgAMEI+hkG0EqITnz/NADPzwqGkjyU3epu4+ds/l1aZtwJCt5w5UJggccCBcCAMGIDQIgjC4M8vhYeGDIAj0x/EIAmDBtSTZTkLOmOVizoBZ///7OOfs8b5aFdF/B27bRlKCAefc1TsKaFOnvzlUl32h3RHzger2f4gzoHf0ZqIMMSVdN3wxdRuH3jnTdA0c4Y6ZumdMN3kXJmopPdwDU7fF9KUzwWz0VHveaRlBLsQeIauf+MCslVxjetKZYrbW2Sp5DyGN2BOksc9KyRUTVSs54wwYO+tslLwx+lqeIZOCWbERV+f3exw="
+                      alt="" data-pagespeed-url-hash="2924975934"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                      facilisis por incididunt ut labore et dolore mas. </p>
+                  </div>
+
+                  <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                    <div class="founder-img">
+                      <img src="img/gallery/xHomepage_testi.png.pagespeed.ic.IdmhPM2NkE.webp" alt=""
+                        data-pagespeed-url-hash="4282642113"
+                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="founder-text">
+                      <span>Jessya Inn</span>
+                      <p>Chif Photographer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="blogs-area section-padding30">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+
+            <div class="section-tittle text-center mb-30">
+              <h2>Tourist Blog</h2>
+              <p>Our Recent Photos</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-blogs mb-100">
+              <div class="blog-img">
+                <img src="img/gallery/xblog1.png.pagespeed.ic.hcvZNEHnyN.webp" alt=""
+                  data-pagespeed-url-hash="2053867662"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="blog-cap">
+                <span class="color1">23 Dec, 2020</span>
+                <h4><a href="blog_details.html">Addiction When Gambling Becomes</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-blogs mb-100">
+              <div class="blog-img">
+                <img src="img/gallery/xblog2.png.pagespeed.ic.9t0Y0PDtNd.webp" alt=""
+                  data-pagespeed-url-hash="2348367583"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="blog-cap">
+                <span class="color1">23 Dec, 2020</span>
+                <h4><a href="blog_details.html">Addiction When Gambling Becomes</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-blogs mb-100">
+              <div class="blog-img">
+                <img src="img/gallery/xblog3.png.pagespeed.ic.mp961MaI79.webp" alt=""
+                  data-pagespeed-url-hash="2642867504"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div>
+              <div class="blog-cap">
+                <span class="color1">23 Dec, 2020</span>
+                <h4><a href="blog_details.html">Addiction When Gambling Becomes</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-shape d-none d-xl-block">
+        <img src="img/gallery/xblog_shape.png.pagespeed.ic.FFSTJCOZzI.webp" alt="" data-pagespeed-url-hash="3612860183"
+          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+    <div class="footer-area footer-bg">
+      <div class="container">
+        <div class="footer-top footer-padding">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8">
+              <div class="single-footer-caption mb-50">
+
+                <div class="footer-logo">
+                  <a href="index.html"><img src="logo/download.webp" alt="" data-pagespeed-url-hash="2483634899"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                </div>
+                <div class="footer-tittle">
+                  <div class="footer-pera">
+                    <p class="info1">Grabbing the concsumer’s attention isn’t enough you have to keep that attention for
+                      at least a.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Navigation</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Instagram Feed</h4>
+                </div>
+                <div class="instagram-gellay">
+                  <ul class="insta-feed">
+                    <li><a href="#"><img src="img/xinstagram1.png.pagespeed.ic.cMTeZwKX8A.webp" alt=""
+                          data-pagespeed-url-hash="994541466"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                    <li><a href="#"><img src="img/xinstagram2.png.pagespeed.ic.lmJ-1U2YHH.webp" alt=""
+                          data-pagespeed-url-hash="1289041387"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                    <li><a href="#"><img src="img/xinstagram3.png.pagespeed.ic.mNSQgh3EyQ.webp" alt=""
+                          data-pagespeed-url-hash="1583541308"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                    <li><a href="#"><img src="img/xinstagram4.png.pagespeed.ic.9spptqxs-J.webp" alt=""
+                          data-pagespeed-url-hash="1878041229"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                    <li><a href="#"><img src="img/xinstagram5.png.pagespeed.ic.Ca0rLlrOp-.webp" alt=""
+                          data-pagespeed-url-hash="2172541150"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                    <li><a href="#"><img src="img/xinstagram6.png.pagespeed.ic.f9WDKbjzBp.webp" alt=""
+                          data-pagespeed-url-hash="2467041071"
+                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-xl-9 col-lg-8">
+              <div class="footer-copy-right">
+                <p>
+                  Copyright &copy;<script data-cfasync="false"
+                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script> All rights reserved | This template is made with <i class="fa fa-heart"
+                    aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4">
+
+              <div class="footer-social f-right">
+                <span>Follow Us</span>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-contact-form/1.4.1/js/contact-form.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/mail-script.js+plugins.js+main.js.pagespeed.jc.MVkzEHcgVb.js"></script><
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+    data-cf-beacon='{"rayId":"722e312d5cde91b7","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.6.0","si":100}'
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
